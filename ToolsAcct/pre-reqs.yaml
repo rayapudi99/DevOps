@@ -49,7 +49,6 @@ Resources:
               - "kms:Get*"
               - "kms:Delete*"
               - "kms:ScheduleKeyDeletion"
-              - "kms:CancelKeyDeletion"
             Resource: "*"
           -
             Sid: Allow use of the key for CryptoGraphy Lambda
